@@ -15,6 +15,5 @@ mvn compile quarkus:dev
 
 You can run your application in dev mode that enables live coding using:
 ```shell script
-mvn clean package -Dquarkus.kubernetes.deploy=true
+mvn clean install -Dquarkus.kubernetes.deploy=true
 ```
-
